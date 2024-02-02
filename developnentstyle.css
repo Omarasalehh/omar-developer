@@ -1,0 +1,38 @@
+body{margin: 0px; box-sizing: border-box;}
+.header {display: flex; justify-content: space-between; align-items: center; background-color: #f5f5f5;}
+.header .logo{font-size: 25px; font-family: 'Sriracha', cursive; color: #000; text-decoration: none; margin-left: 30px;}
+.nav-items{display: flex; justify-content: space-around; align-items: center; background-color: #f5f5f5; margin-right: 20px;}
+.nav-items a{text-decoration: none; color: #000;padding: 35px 20px;}
+.footer{display: flex; justify-content: space-between; align-items: center; 
+background-color: #302f49;
+padding: 40px 80px;}
+.footer .copy{color: #fff;}
+.bottom-links{display: flex; justify-content: space-around; align-items: center; padding: 40px 0px;}
+.bottom-links .links{display: flex; align-items: center;
+flex-direction: column; padding: 0px 40px;}
+.bottom-links .links span{font-size: 20px;
+color: #fff; text-transform: uppercase; margin: 10px 0px;}
+.bottom-links .links a{text-decoration: none; color: #A1A1A1; padding: 10px 20px; }
+.intro{
+    display: flex; justify-content: center; align-items: center;
+    flex-direction: column; width: 100%; height: 520px; background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5)100%), url("space\ copy\ -\ Copy.jpg");
+    background-size: cover; background-position: center; background-repeat: no-repeat;
+
+}
+.intro h1{font-family: sans-serif; font-size: 60px; color: #fff; font-weight: bold; text-transform: uppercase;
+margin: 0;}
+.intro p{font-size: 20px; color: #D1D1D1; text-transform: uppercase; margin: 20px 0px;}
+.intro button{ background-color: #5edaf0; color: black; padding: 10px 25px; border: none; border-radius: 5px; font-size: 20px; 
+font-weight: bold; cursor: pointer; box-shadow: 0px 0px 20px rgba(255,255,255,0.4);}
+.achievement{display: flex; justify-content: space-around; align-items: center; padding: 40px 80px;}
+.achievement .work{display: flex; justify-content: center; flex-direction: column; align-items: center;
+padding: 0px 40px;}
+
+.achievement .work i{width: fit-content; font-size: 50px; color: #333333; border-radius: 50%; border: 2px solid #333333;
+padding: 12px;}
+.achievement .work .heading{font-size: 20px; color: #333333; text-transform: uppercase; margin: 10px 0px;}
+.achievement .work .work-text{font-size: 15px; color: #585858; margin: 10px 0px;}
+.about-me{display: flex; justify-content: center; align-items: center; padding: 40px 80px; border-top: 2px solid #eeeeee; }
+.about-me img{width: 500px; max-width: 100%; height: auto; border-radius: 10px;}
+.about-me-text h2{font-size: 30px; color: #333333; text-transform: uppercase; margin: 0px;}
+.about-me-text p{font-size: 15px; color: #585858; margin: 10px 0px;}
